@@ -2,7 +2,7 @@ require 'pry'
 
 # Create Anagram class
 class Anagram
-  attr_reader :word
+  attr_accessor :word
 
   # Initialize with word
   def initialize(word)
