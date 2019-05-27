@@ -1,5 +1,3 @@
-require "pry"
-# Your code goes here!
 class Anagram
 
   attr_accessor :word
@@ -8,7 +6,7 @@ class Anagram
     @word = input
   end
 
-def match(input)
-  input.select {|input| input.split("").sort == @word.split("").sort }
-end
+  def match(input)
+    input.select {|input| input.split("").sort == @word.split("").sort }
+  end
 end
